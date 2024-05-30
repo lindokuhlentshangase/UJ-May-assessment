@@ -1,38 +1,59 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Thandazile Ntshagase",
+        "email" : "thandazilelindokuhle55@gmail.com",
+        "phone" : "+27717617505",
+        "address": "19 4th street Vrededorp",
+        "summary": "Detail-oriented and motivated Teacher with a minimum of 2 years experience i different schools and business administration. Experience i performing multi-function management and business analysis for various orgaisations. Offers a proven record of success in leading so many phases in the projects."
+    },
+    "experience1" : {
+        "organisation": "Department of Statistics",
+        "duration" : "February 2022- April 2022",
+        "position" : "Data Capture",
+        "duty1": "Capturing data",
+        "duty2": "Verify data for accuracy",
+        "duty3": "Sorting files"   
+    },
+    "experience2" : {
+        "organisation" : "Department of Education",
+        "duration": "March 2023 - October 2023",
+        "position": "Teachers Assistant",
+        "duty1": "Help teachers with photocopies.",
+        "duty2": "Leading discussion sessions",
+        "duty3": "Conferencing with learners individually or in small groups"
+    },
+    "experience3" : {
+        "organisation": "Department of Education",
+        "duration": "November 2023 - February 2024",
+        "position": "Substitute Educator",
+        "duty1": "Lesson planning.",
+        "duty2": "Classroom Maagement.",
+        "duty3" : "Understanding the curriculum",
+        "duty4" : "Grading work and assignments."
+
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institution" : "University of Zululand",
+        "duration" : "February 2021 - November 2021",
+        "degree" : "Bachelor of Commerce Honours in Economics"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "education2": {
+        "institution" :"University of Zululand",
+        "duration" : "February 2020 - November 2020",
+        "degree" : "Post Graduate Certificate in Education"
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+
+    "skills" : {
+        "skill1" : "Team management",
+        "skill2" : "Microsoft office",
+        "skill3" : "Conflict management",
+        "skill4": "Business development",
+        "skill" : "Stragegic Planning"
+    },
+
+    "languages" : {
+        "lag1": "isizulu",
+        "lag2": "english",
+        "lag3": "siswati"
+    }
 }

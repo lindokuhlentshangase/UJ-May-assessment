@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Thandazile Lindokuhle Ntshangase</title>
+    <link rel="stylesheet" href="simple-grid.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <div class="row">
+    <h1 class="col-6">{{user.fullName}}</h1>
+        <div class="col-6">
+    <h2>contact details</h2>
+    <h3>{{user.email}}</h3>
+    <h3>{{user.phone}}</h3>
+    <div>{{user.address}}</div>
+    <h2>{{user.summary}}</h2>
+    <hr>
+    <p>{{user.summary}}</p>
+</div>
+</div>
+</div>
+
+    <h1>Experience</h1>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">  
+        <h3>{{experience1.organisation}}</h3>
+        <h3>{{experience1.duration}}</h3>
+        <h3>{{experience1.position}}</h3>
+        <h4>Duties</h4>
+        <ul>
+            <li>{{experience1.duty1}}</li>
+            <li>{{experience1.duty2}}</li>
+            <li>{{experience1.duty3}}</li>
+        </ul>
+        </div>
+        <div class="col-4">
+        <h3>{{experience2.organisation}}</h3>
+        <h3>{{experience2.duration}}</h3>
+        <h3>{{experience2.position}}</h3>
+        <h4>Duties</h4>
+        <ul>
+            <li>{{experience2.duty1}}</li>
+            <li>{{experience2.duty2}}</li>
+            <li>{{experience2.duty3}}</li>
+        </ul>
+        </div>
+        <div class="col-4">
+        <h3>{{experience3.organisation}}</h3>
+        <h3>{{experience3.duration}}</h3>
+        <h3>{{experience3.position}}</h3>
+        <h4>Duties</h4>
+        <ul>
+            <li>{{experience3.duty1}}</li>
+            <li>{{experience3.duty2}}</li>
+            <li>{{experience3.duty3}}</li>
+            <li>{{experience3.duty4}}</li>
+        </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    <h1>EDUCATION</h1>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+        <h3>{{education.institution}}</h3>
+        <h3>{{education.duration}}</h3>
+        <h3>{{education.degree}}</h3>
+</div>
+<div class="col-6">
+        <h3>{{education2.institution}}</h3>
+        <h3>{{education2.duration}}</h3>
+        <h3>{{education2.degree}}</h3>
+    </div>
+    </div>
+    </div>
+    <h1>SKILLS</h1>
+    <hr>
+    <div class="container">
+        <div class="row">
+        <div class="col-6">
+        <ul>
+            <li>{{skills.skill1}}</li>
+            <li>{{skills.skill2}}</li>
+            <li>{{skills.skill3}}</li>
+            <li>{{skills.skill4}}</li>
+            <li>{{skills.skill}}</li>
+        </ul>
+        </div>
+        <h1>Languages</h1>
+        <hr>
+        <div class="col-6">
+        <ul>
+            <li>{{languages.lag1}}</li>
+            <li>{{languages.lag2}}</li>
+            <li>{{languages.lag3}}</li>
+        </ul>
+    </div>
+</div>
+</div>
+ </div>
 </body>
 </html>
